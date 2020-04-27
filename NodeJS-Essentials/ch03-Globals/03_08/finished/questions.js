@@ -4,8 +4,8 @@ const questions = [
   "What is your preferred programming language?"
 ];
 
-const ask = (i = 0) => {
-  process.stdout.write(`\n\n\n ${questions[i]}`);
+const ask = ( i = 0 ) => {
+  process.stdout.write(`\n ${questions[i]}`);
   process.stdout.write(` > `);
 };
 
